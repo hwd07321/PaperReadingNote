@@ -1,1 +1,12 @@
+This paper has designed a architecture that conbine the MBAs and CPU to deal with deep learning tasks and a lot of experiments are performed  
+to test the efficiency of this architecture. Comparing with the traditional CPU-GPU architecture, the MBAs based architecture has computing 
+advantage in MVM operation which show us a promising results in MLP and LeNet. However, limited by the devolopment of MBAs, some tricks in 
+deep learning method can't be well accelerated by MBA based architecture such as Pooling, Activation, Normalization and so on. which suppress
+the performence in some large neural networks. The MBA based architecture is under devolopment now, and i think it will have a large scale
+application in the future.
 
+This paper have two main contributions, the first one is that they proposed a BTBP-based method to split a large matrix into some limited computing 
+units, and it also can retore the results when caculationg is over based on this method. The second one is that they designed some methods to
+enable the MBA to support float-point caculation which was not supported before.
+
+Here are my insights on this paper.
