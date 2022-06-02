@@ -1,0 +1,3 @@
+This paper proposed a heterogeneous architecture to accelerate the speed of neural network for graph problem. 
+To solve the problem of uneven distribution of vertex in GNN, the author used low-dimension PIM and high-dimension PIM to deal with different vertex
+with different degrees respectively, they use such a hierarchical design to solve this problem which is the core creation of this paper.
